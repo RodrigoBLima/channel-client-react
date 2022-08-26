@@ -1,0 +1,90 @@
+#conversation-item-container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 12px 16px;
+  gap: 6px;
+
+  height: 64px;
+
+  background: $neutral-000;
+
+  box-shadow: 0px 0px 0px 1px rgba(186, 182, 188, 0.07), 0px 4px 4px rgba(60, 55, 56, 0.07), 0px 8px 8px rgba(60, 55, 56, 0.07);
+  border-radius: 8px;
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+
+
+  .body {
+    display: flex;
+    flex-direction: column;
+    gap: 6px !important;
+    width: 85%;
+
+    max-width: 85%;
+
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+
+    .client-name {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 16px;
+
+      color: $neutral-1000;
+
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+
+  .item-bottom {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0;
+    border-top: none;
+
+    div {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      max-width: 300px;
+
+      .readed-icon {
+        display: flex;
+        align-items: center;
+
+        svg {
+          height: 16px;
+          width: 16px;
+        }
+      }
+
+      .last-message {
+
+        .text {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 13px;
+          line-height: 13px;
+
+          color: $neutral-900;
+
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+      }
+    }
+  }
+}

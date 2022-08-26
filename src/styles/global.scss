@@ -1,0 +1,16 @@
+@import './common/reset.scss';
+@import "./common/colors.scss";
+@import "./common/utilities.scss";
+
+// views
+@import "../view/Conversation/index.scss";
+@import "../view/Home/index.scss";
+
+// components
+@import "../components/Card/index.scss";
+@import "../components/Counter/index.scss";
+
+body {
+  background-color: $color-bg;
+  font-family: 'Roboto', sans-serif;
+}

@@ -1,0 +1,16 @@
+.card-edit {
+  display: flex;
+  color: $green-600;
+  font-size: 13px;
+  font-weight: 400;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+
+  img {
+    height: 12px;
+    width: 12px;
+    margin: auto;
+    margin-left: 5px;
+  }
+}
