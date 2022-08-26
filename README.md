@@ -11,14 +11,14 @@ This project was developed with the following technologies:
 
 Create .env.local on . of the project and setup your firestore keys
 
-REACT_APP_FIREBASE_API_KEY = apiKey 
-REACT_APP_AUTH_DOMAIN = authDomain 
-REACT_APP_DATABASE_URL = databaseURL 
-REACT_APP_PROJECT_ID = projectId 
-REACT_APP_STORAGE_BUCKET = storageBucket 
-REACT_APP_MESSAGING_SENDER_ID = messagingSenderId 
-REACT_APP_APP_ID = appId 
-REACT_APP_MEASUREMENT_ID = measurementId 
+- REACT_APP_FIREBASE_API_KEY = apiKey 
+- REACT_APP_AUTH_DOMAIN = authDomain 
+- REACT_APP_DATABASE_URL = databaseURL 
+- REACT_APP_PROJECT_ID = projectId 
+- REACT_APP_STORAGE_BUCKET = storageBucket 
+- REACT_APP_MESSAGING_SENDER_ID = messagingSenderId 
+- REACT_APP_APP_ID = appId 
+- REACT_APP_MEASUREMENT_ID = measurementId 
 
 ## UX
   - List of conversations  
